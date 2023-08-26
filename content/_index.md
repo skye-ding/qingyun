@@ -22,11 +22,11 @@ sections:
         - name: Social Media Marketing
           description: Familiar with Twitter, Facebook, Youtube, etc.
           icon: hashtag
-          icon_pack: fas
+          icon_pack: fab
         - name: Data Analysis
           description: Processing and visualization with Python
           icon: python
-          icon_pack: fas
+          icon_pack: fab
   - block: experience
     content:
       title: Experience
