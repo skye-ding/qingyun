@@ -6,7 +6,7 @@ type: landing
 
 sections:
   
- - block: about.biography
+  - block: about.biography
     id: about
     content:
       title: Biography
@@ -14,21 +14,21 @@ sections:
       username: admin
   - block: features
     content:
-       title: Skills
-       items:
-         - name: R
-           description: 90%
-           icon: r-project
-           icon_pack: fab
-         - name: Statistics
-           description: 100%
-           icon: chart-line
-           icon_pack: fas
-         - name: Photography
-           description: 10%
-           icon: camera-retro
-           icon_pack: fas
-   - block: experience
+      title: Skills
+      items:
+        - name: Video Editing
+          description: Proficient in Adobe Premier & Final Cut Pro
+          icon: r-project
+          icon_pack: fab
+        - name: Statistics
+          description: 100%
+          icon: chart-line
+          icon_pack: fas
+        - name: Photography
+          description: 10%
+          icon: camera-retro
+          icon_pack: fas
+  - block: experience
     content:
       title: Experience
       # Date format for experience
