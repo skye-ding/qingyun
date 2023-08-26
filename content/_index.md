@@ -18,7 +18,7 @@ sections:
       items:
         - name: Video Editing
           description: Proficient in Adobe Premier & Final Cut Pro
-          icon: r-project
+          icon: video
           icon_pack: fab
         - name: Statistics
           description: 100%
