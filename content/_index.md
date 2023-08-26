@@ -42,7 +42,7 @@ sections:
         - title: Editor
           company: China Global Television Network
           company_url: 'https://www.cgtn.com/'
-          company_logo: cgtn
+          company_logo:
           location: Beijing, China
           date_start: '2021-07-19'
           date_end: '2023-06-30'
@@ -54,7 +54,7 @@ sections:
         - title: Freelance Translator
           company: Pheonix Television
           company_url: 'https://phtv.ifeng.com/english.shtml'
-          company_logo: Phoenix
+          company_logo:
           location: Beijing, China
           date_start: '2019-09-01'
           date_end: '2021-06-30'
@@ -65,7 +65,7 @@ sections:
         - title: Intern
           company: China Institution for Innovation & Development Strategy
           company_url: 'https://www.ciids.cn/gb/en/index.html'
-          company_logo: ciids
+          company_logo:
           location: Beijing, China
           date_start: '2020-10-01'
           date_end: '2020-12-30'
