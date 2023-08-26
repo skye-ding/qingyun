@@ -26,7 +26,7 @@ sections:
           icon_pack: fas
         - name: Data Analysis
           description: Processing and visualization with Python
-          icon: camera-retro
+          icon: r-project
           icon_pack: fas
   - block: experience
     content:
