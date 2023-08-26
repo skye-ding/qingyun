@@ -16,7 +16,7 @@ sections:
     content:
       title: Skills
       items:
-        - name: Video Editing
+        - name: Video
           description: Proficient in Adobe Premier & Final Cut Pro
           icon: camera-retro
           icon_pack: fas
