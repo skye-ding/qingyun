@@ -17,18 +17,17 @@ sections:
       items:
         - name: Video Editing
           description: Proficient in Adobe Premier & Final Cut Pro
-          icon: linkedin
+          icon: r-project
           icon_pack: fab
         - name: Social Media Marketing
           description: Familiar with Twitter, Facebook, Youtube, etc.
-          icon: linkedin
+          icon: r-project
           icon_pack: fab
         - name: Data Analysis
           description: Processing and visualization with Python
-          icon: linkedin
+          icon: r-project
           icon_pack: fab
   - block: experience
-    id: experience
     content:
       title: Experience
       # Date format for experience
@@ -47,7 +46,7 @@ sections:
           location: Beijing, China
           date_start: '2021-07-19'
           date_end: '2023-06-30'
-          description: 
+          description: |-
               * Managed script-production and post-production for 50+ editions of CGTN's prime time talk show "Dialogue," covering diverse topics like the Russia-Ukraine conflict, China-U.S. relations, Chinese culture, and environment.
               * Conducted topic research, scripted, and facilitated distribution for key documentaries on Taiwan, the Ukraine War and the Middle East.
               * Amplified overseas audience reach by creating and producing 100+ social media posts on platforms such as Twitter, Facebook, Weibo, and WeChat. These posts were cited by 600+ media platforms across 20+ countries, collectively reaching an audience of 270m+.
@@ -59,7 +58,7 @@ sections:
           location: Beijing, China
           date_start: '2019-09-01'
           date_end: '2021-06-30'
-          description: 
+          description: |-
              * Provided precise English-to-Chinese translation for speeches delivered by prominent diplomats and scholars, including the Ambassador of Iran to China, Joerg Wuttke, and the IMF Senior Resident Representative for China.
              * Skillfully translated a range of documentaries, such as "The Great Plague," "Beyond our Earth," and "The Palace & The Press," ensuring accurate and effective communication of complex content.
 
@@ -70,11 +69,78 @@ sections:
           location: Beijing, China
           date_start: '2020-10-01'
           date_end: '2020-12-30'
-          description: 
+          description: |-
              * Orchestrated the attendance of 150+ international politicians, academics, and strategists from 20+ countries at the Understanding China Conference 2020. This encompassed guest list preparation, invitations, feedback collection, personal data management, and agenda updates.
              * Translated and published 3 internal publications, converting over 20 speeches by foreign politicians and entrepreneurs from English to Chinese. Included were speeches by figures like former British PM Gordon Brown and Merlin Swire.
              * Coordinated the "Climate Action: China-U.S. Sub-national Cooperation" project. This involved translating project documents, arranging an interview press release with former California Governor Jerry Brown in the Los Angeles Times, curating meeting agendas, recording minutes, and overseeing media coverage tracking.
-
+design:
+       columns: '2'
+   - block: accomplishments
+     content:
+       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+       title: 'Accomplish&shy;ments'
+       subtitle:
+       # Date format: https://wowchemy.com/docs/customization/#date-format
+       date_format: Jan 2006
+       # Accomplishments.
+       #   Add/remove as many `item` blocks below as you like.
+       #   `title`, `organization`, and `date_start` are the required parameters.
+       #   Leave other parameters empty if not required.
+       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+       items:
+         - certificate_url: https://www.coursera.org
+           date_end: ''
+           date_start: '2021-01-25'
+           description: ''
+           organization: Coursera
+           organization_url: https://www.coursera.org
+           title: Neural Networks and Deep Learning
+           url: ''
+         - certificate_url: https://www.edx.org
+           date_end: ''
+           date_start: '2021-01-01'
+           description: Formulated informed blockchain models, hypotheses, and use cases.
+           organization: edX
+           organization_url: https://www.edx.org
+           title: Blockchain Fundamentals
+           url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+         - certificate_url: https://www.datacamp.com
+           date_end: '2020-12-21'
+           date_start: '2020-07-01'
+           description: ''
+           organization: DataCamp
+           organization_url: https://www.datacamp.com
+           title: 'Object-Oriented Programming in R'
+           url: ''
+     design:
+       columns: '2'
+   - block: collection
+     id: posts
+     content:
+       title: Recent Posts
+       subtitle: ''
+       text: ''
+       # Choose how many pages you would like to display (0 = all pages)
+       count: 5
+       # Filter on criteria
+       filters:
+         folders:
+           - post
+         author: ""
+         category: ""
+         tag: ""
+         exclude_featured: false
+         exclude_future: false
+         exclude_past: false
+         publication_type: ""
+       # Choose how many pages you would like to offset by
+       offset: 0
+       # Page order: descending (desc) or ascending (asc) date.
+       order: desc
+     design:
+       # Choose a layout view
+       view: compact
+       columns: '2'
   - block: portfolio
     id: projects
     content:
