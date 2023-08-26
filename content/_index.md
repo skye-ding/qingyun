@@ -15,17 +15,17 @@ sections:
     content:
       title: Skills
       items:
-        - name: R
-          description: 90%
-          icon: r-project
+        - name: Video Editing
+          description: Proficient in Adobe Premier & Final Cut Pro
+          icon: video
           icon_pack: fab
-        - name: Statistics
-          description: 100%
-          icon: chart-line
+        - name: Social Media Marketing
+          description: Familiar with Twitter, Facebook, Youtube, etc.
+          icon: hashtag
           icon_pack: fas
-        - name: Photography
-          description: 10%
-          icon: camera-retro
+        - name: Data Analysis
+          description: Processing and visualization with Python
+          icon: python
           icon_pack: fas
   - block: experience
     content:
@@ -39,95 +39,42 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: CEO
-          company: GenCoin
-          company_url: ''
-          company_logo: org-gc
-          location: California
-          date_start: '2021-01-01'
-          date_end: ''
+        - title: Editor
+          company: China Global Television Network
+          company_url: 'https://www.cgtn.com/'
+          company_logo: cgtn
+          location: Beijing, China
+          date_start: '2021-07-19'
+          date_end: '2023-06-30'
           description: |2-
-              Responsibilities include:
+              
+              * Managed script-production and post-production for 50+ editions of CGTN's prime time talk show "Dialogue," covering diverse topics like the Russia-Ukraine conflict, China-U.S. relations, Chinese culture, and environment.
+              * Conducted topic research, scripted, and facilitated distribution for key documentaries on Taiwan, the Ukraine War and the Middle East.
+              * Amplified overseas audience reach by creating and producing 100+ social media posts on platforms such as Twitter, Facebook, Weibo, and WeChat. These posts were cited by 600+ media platforms across 20+ countries, collectively reaching an audience of 270m+.
 
-              * Analysing
-              * Modelling
-              * Deploying
-        - title: Professor of Semiconductor Physics
-          company: University X
-          company_url: ''
-          company_logo: org-x
-          location: California
-          date_start: '2016-01-01'
-          date_end: '2020-12-31'
-          description: Taught electronic engineering and researched semiconductor physics.
-    design:
-      columns: '2'
-  - block: accomplishments
-    content:
-      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Accomplish&shy;ments'
-      subtitle:
-      # Date format: https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - certificate_url: https://www.coursera.org
-          date_end: ''
-          date_start: '2021-01-25'
-          description: ''
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
-          url: ''
-        - certificate_url: https://www.edx.org
-          date_end: ''
-          date_start: '2021-01-01'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - certificate_url: https://www.datacamp.com
-          date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
-    design:
-      columns: '2'
-  - block: collection
-    id: posts
-    content:
-      title: Recent Posts
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        folders:
-          - post
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: compact
-      columns: '2'
+        - title: Freelance Translator
+          company: Pheonix Television
+          company_url: 'https://phtv.ifeng.com/english.shtml'
+          company_logo: Phoenix
+          location: Beijing, China
+          date_start: '2019-09-01'
+          date_end: '2021-06-30'
+          description: |2-
+             * Provided precise English-to-Chinese translation for speeches delivered by prominent diplomats and scholars, including the Ambassador of Iran to China, Joerg Wuttke, and the IMF Senior Resident Representative for China.
+             * Skillfully translated a range of documentaries, such as "The Great Plague," "Beyond our Earth," and "The Palace & The Press," ensuring accurate and effective communication of complex content.
+
+        - title: Intern
+          company: China Institution for Innovation & Development Strategy
+          company_url: 'https://www.ciids.cn/gb/en/index.html'
+          company_logo: ciids
+          location: Beijing, China
+          date_start: '2020-10-01'
+          date_end: '2020-12-30'
+          description: |2-
+             * Orchestrated the attendance of 150+ international politicians, academics, and strategists from 20+ countries at the Understanding China Conference 2020. This encompassed guest list preparation, invitations, feedback collection, personal data management, and agenda updates.
+             * Translated and published 3 internal publications, converting over 20 speeches by foreign politicians and entrepreneurs from English to Chinese. Included were speeches by figures like former British PM Gordon Brown and Merlin Swire.
+             * Coordinated the "Climate Action: China-U.S. Sub-national Cooperation" project. This involved translating project documents, arranging an interview press release with former California Governor Jerry Brown in the Los Angeles Times, curating meeting agendas, recording minutes, and overseeing media coverage tracking.
+
   - block: portfolio
     id: projects
     content:
@@ -145,7 +92,7 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Deep Learning
+        - name: Video
           tag: Deep Learning
         - name: Other
           tag: Demo
@@ -209,36 +156,18 @@ sections:
       title: Contact
       subtitle:
       text: |-
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam mi diam, venenatis ut magna et, vehicula efficitur enim.
+        Feel free to contact me via:.
       # Contact (add or remove contact options as necessary)
-      email: test@example.org
-      phone: 888 888 88 88
-      appointment_url: 'https://calendly.com'
+      email: qd2177@columbia.edu
+      phone: (551)-331-3654
       address:
-        street: 450 Serra Mall
-        city: Stanford
-        region: CA
-        postcode: '94305'
+        street: 419 W115th Street
+        city: New York
+        region: NY
+        postcode: '10025'
         country: United States
         country_code: US
-      directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
-      office_hours:
-        - 'Monday 10:00 to 13:00'
-        - 'Wednesday 09:00 to 10:00'
-      contact_links:
-        - icon: twitter
-          icon_pack: fab
-          name: DM Me
-          link: 'https://twitter.com/Twitter'
-        - icon: skype
-          icon_pack: fab
-          name: Skype Me
-          link: 'skype:echo123?call'
-        - icon: video
-          icon_pack: fas
-          name: Zoom Me
-          link: 'https://zoom.com'
-      # Automatically link email and phone or display as text?
+          # Automatically link email and phone or display as text?
       autolink: true
       # Email form provider
       form:
