@@ -19,7 +19,7 @@ sections:
         - name: Video Editing
           description: Proficient in Adobe Premier & Final Cut Pro
           icon: video
-          icon_pack: fab
+          icon_pack: fas
         - name: Statistics
           description: 100%
           icon: chart-line
