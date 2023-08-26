@@ -13,66 +13,46 @@ sections:
       username: admin
   - block: features
     content:
-      title: Skills
-      items:
-        - name: Video Editing
-          description: Proficient in Adobe Premier & Final Cut Pro
-          icon: r-project
-          icon_pack: fab
-        - name: Social Media Marketing
-          description: Familiar with Twitter, Facebook, Youtube, etc.
-          icon: r-project
-          icon_pack: fab
-        - name: Data Analysis
-          description: Processing and visualization with Python
-          icon: r-project
-          icon_pack: fab
-  - block: experience
-    content:
-      title: Experience
-      # Date format for experience
-      #   Refer to https://wowchemy.com/docs/customization/#date-format
-      date_format: Jan 2006
-      # Experiences.
-      #   Add/remove as many `experience` items below as you like.
-      #   Required fields are `title`, `company`, and `date_start`.
-      #   Leave `date_end` empty if it's your current employer.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-      items:
-        - title: Editor
-          company: China Global Television Network
-          company_url: 'https://www.cgtn.com/'
-          company_logo: org-gc
-          location: Beijing, China
-          date_start: '2021-07-19'
-          date_end: '2023-06-30'
-          description: |-
-              * Managed script-production and post-production for 50+ editions of CGTN's prime time talk show "Dialogue," covering diverse topics like the Russia-Ukraine conflict, China-U.S. relations, Chinese culture, and environment.
-              * Conducted topic research, scripted, and facilitated distribution for key documentaries on Taiwan, the Ukraine War and the Middle East.
-              * Amplified overseas audience reach by creating and producing 100+ social media posts on platforms such as Twitter, Facebook, Weibo, and WeChat. These posts were cited by 600+ media platforms across 20+ countries, collectively reaching an audience of 270m+.
-
-        - title: Freelance Translator
-          company: Pheonix Television
-          company_url: 'https://phtv.ifeng.com/english.shtml'
-          company_logo: org-gc
-          location: Beijing, China
-          date_start: '2019-09-01'
-          date_end: '2021-06-30'
-          description: |-
-             * Provided precise English-to-Chinese translation for speeches delivered by prominent diplomats and scholars, including the Ambassador of Iran to China, Joerg Wuttke, and the IMF Senior Resident Representative for China.
-             * Skillfully translated a range of documentaries, such as "The Great Plague," "Beyond our Earth," and "The Palace & The Press," ensuring accurate and effective communication of complex content.
-
-        - title: Intern
-          company: China Institution for Innovation & Development Strategy
-          company_url: 'https://www.ciids.cn/gb/en/index.html'
-          company_logo: org-gc
-          location: Beijing, China
-          date_start: '2020-10-01'
-          date_end: '2020-12-30'
-          description: |-
-             * Orchestrated the attendance of 150+ international politicians, academics, and strategists from 20+ countries at the Understanding China Conference 2020. This encompassed guest list preparation, invitations, feedback collection, personal data management, and agenda updates.
-             * Translated and published 3 internal publications, converting over 20 speeches by foreign politicians and entrepreneurs from English to Chinese. Included were speeches by figures like former British PM Gordon Brown and Merlin Swire.
-             * Coordinated the "Climate Action: China-U.S. Sub-national Cooperation" project. This involved translating project documents, arranging an interview press release with former California Governor Jerry Brown in the Los Angeles Times, curating meeting agendas, recording minutes, and overseeing media coverage tracking.
+       title: Skills
+       items:
+         - name: R
+           description: 90%
+           icon: r-project
+           icon_pack: fab
+         - name: Statistics
+           description: 100%
+           icon: chart-line
+           icon_pack: fas
+         - name: Photography
+           description: 10%
+           icon: camera-retro
+           icon_pack: fas
+   - block: experience
+     content:
+ @@ -39,95 +39,42 @@ sections:
+       #   Leave `date_end` empty if it's your current employer.
+       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+       items:
+         - title: CEO
+           company: GenCoin
+           company_url: ''
+           company_logo: org-gc
+           location: California
+           date_start: '2021-01-01'
+           date_end: ''
+           description: |2-
+               Responsibilities include:
+* Analysing
+               * Modelling
+               * Deploying
+         - title: Professor of Semiconductor Physics
+           company: University X
+           company_url: ''
+           company_logo: org-x
+           location: California
+           date_start: '2016-01-01'
+           date_end: '2020-12-31'
+           description: Taught electronic engineering and researched semiconductor physics.
      design:
        columns: '2'
    - block: accomplishments
