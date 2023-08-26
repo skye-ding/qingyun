@@ -20,12 +20,12 @@ sections:
           description: Proficient in Adobe Premier & Final Cut Pro
           icon: camera-retro
           icon_pack: fas
-        - name: Statistics
-          description: 100%
+        - name: Social Media Marketing
+          description: Familiar with Twitter, Facebook, Youtube, etc.
           icon: chart-line
           icon_pack: fas
-        - name: Photography
-          description: 10%
+        - name: Data Analysis
+          description: Processing and visualization with Python
           icon: camera-retro
           icon_pack: fas
   - block: experience
