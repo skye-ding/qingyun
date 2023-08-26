@@ -18,7 +18,7 @@ sections:
       items:
         - name: Video Editing
           description: Proficient in Adobe Premier & Final Cut Pro
-          icon:fas film
+          icon:fas youtube
           icon_pack: fas
         - name: Statistics
           description: 100%
