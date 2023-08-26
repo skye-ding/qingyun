@@ -92,7 +92,7 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Video
+        - name: Deep Learning
           tag: Deep Learning
         - name: Other
           tag: Demo
